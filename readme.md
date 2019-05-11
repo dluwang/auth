@@ -13,7 +13,7 @@ use Dluwang\Auth\Concerns\Assignable;
 
 class User extends Authenticatable
 {
-	use Assignable;
+  use Assignable;
 }
 ```
 
@@ -26,7 +26,7 @@ $user->authorized('permissions');
 $user->authorized(['permission-one', 'permission-two']);
 ```
 
-To check if user has at least one given permissions, you can use 'authorizedOnOf' method.
+To check if user has at least one given permissions, you can use `authorizedOneOf` method.
 
 ```php
 $user->authorizedOneOf(['permission-one', 'permission-two']);
@@ -37,6 +37,14 @@ You can also seamlessly integrate this package with Laravel's built in authoriza
 ```
 php artisan dluwang-auth:collect-permissions
 ```
+
+### Configuration
+
+This package provide configuration to customize your needs. You can publish the configuration by running command below.
+```
+php artisan vendor:publish
+```
+
 ### Test
 This repository provide docker-compose file to create isolated environment. To perform test you can use run
 
