@@ -6,7 +6,7 @@ php:
 
 before_script:
   - composer install --no-interaction
-  - cp ./vendor/laravel/laravel/.env.example .env
+  - cp .env.travis .env
 
 script:
   - vendor/bin/phpunit
