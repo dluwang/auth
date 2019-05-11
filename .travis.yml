@@ -6,7 +6,6 @@ php:
 
 before_script:
   - composer install --no-interaction
-  - cp vendor/laravel/laravel/.env.example .env
   - touch database/database.sqlite
 
 script:
