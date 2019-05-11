@@ -1,4 +1,8 @@
 # Auth
+[![Build Status](https://travis-ci.org/dluwang/auth.svg?branch=master)](https://travis-ci.org/dluwang/auth)
+[![Latest Stable Version](https://poser.pugx.org/dluwang/auth/v/stable)](https://packagist.org/packages/dluwang/auth)
+[![License](https://poser.pugx.org/dluwang/auth/license)](https://packagist.org/packages/dluwang/auth)
+
 Laravel extended auth mechanism. This package is intended to provide dynamic, database-driven authorization mechanism. Gates and Policies will be registered to database, mapped with respective roles and users.
 
 ### Installation
