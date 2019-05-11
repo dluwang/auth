@@ -13,7 +13,7 @@ use Dluwang\Auth\Concerns\Assignable;
 
 class User extends Authenticatable
 {
-  use Assignable;
+    use Assignable;
 }
 ```
 
