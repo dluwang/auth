@@ -42,6 +42,13 @@ You can also seamlessly integrate this package with Laravel's built in authoriza
 php artisan dluwang-auth:collect-permissions
 ```
 
+#### **Note**
+
+|Laravel version|Package version  |
+|--|--|
+| 5.8.* | ^1.0
+| ^6.0  | ^2.0
+
 ### Configuration
 
 This package provide configuration to customize your needs. You can publish the configuration by running command below.
